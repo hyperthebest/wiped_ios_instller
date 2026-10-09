@@ -1,16 +1,16 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+--><rss xmlns:ns0="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Altered Wiped Setup</title>
+        <title>Wiped Setup</title>
         <item>
             <title>1.1.4</title>
             <pubDate>Fri, 09 Oct 2026 10:53:33 -0400</pubDate>
             <link>https://www.wiped.me</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Wiped Setup 1.1.4
+            <ns0:version>10</ns0:version>
+            <ns0:shortVersionString>1.1.4</ns0:shortVersionString>
+            <ns0:minimumSystemVersion>13.0</ns0:minimumSystemVersion>
+            <description ns0:format="markdown"># Wiped Setup 1.1.4
 
 - Update the Mac installer directly from Wiped Setup using Check for Updates.
 - Updates wait until sign-in and iPhone setup are finished.
@@ -21,11 +21,11 @@ Older installers need one manual upgrade to this version. Move Wiped Setup to
 Applications before using its updater. Updating the Mac installer supplies the
 latest phone app for your next installation; it does not replace an app already
 installed on your iPhone.
-]]></description>
-            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.4/Wiped_ios_1.1.4.dmg" length="27355185" type="application/octet-stream" sparkle:edSignature="SpXzBDKMuVt2tF3LKXuLv9VoVcbwMw+2VNxXZ9czqnJh+dd5HwOmdxIcqsqjVm60KqOiGrFaPNfYe5NBI5lUBA=="></enclosure>
+</description>
+            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_updater_validation_20261009/Wiped-updater-integrity-test.dmg" length="27355186" type="application/octet-stream" ns0:edSignature="SpXzBDKMuVt2tF3LKXuLv9VoVcbwMw+2VNxXZ9czqnJh+dd5HwOmdxIcqsqjVm60KqOiGrFaPNfYe5NBI5lUBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8F0/uV/KSZwGfB7Ldx4kGewglkbzTvA5Gg0jvs+cEh2Iha30yiCZpvtj5z6c7AEneoicKqMTiYiA05uTKHbyAw==
+edSignature: sw/CG/X+nEbvMrLLok2L2ty9OkdUDZCIDK90lsrGqVd3eZGRME/gNd6mRlaww7l1NCOoHIBgWs3HMH51nfRxDQ==
 length: 1786
 -->
