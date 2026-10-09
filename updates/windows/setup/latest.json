@@ -1,0 +1,11 @@
+{
+  "version": "1.1.7",
+  "notes": "Windows iPhone installer update. Existing saved login and setup data are preserved.",
+  "pub_date": "2026-10-09T19:58:44Z",
+  "platforms": {
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSFBkc0FHajRObTlGejd4cFlMWUUwRWYwb05nYXZyRW0zWWxFTElsSkFpRDhFeXppeW1OQWVraTRPTjU0V2diczJ4LzhCcEN1UWZWWWxNUDk5S3lpMUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTc1OTI0CWZpbGU6V2lwZWQgU2V0dXBfMS4xLjdfeDY0X2VuLVVTLm1zaQpScHU1VGt0QlBYRy9wWXdLVDBmcTdFS25xRjUzY0FWMkRRM0VTR3dQblBzb1VxZitnMVlEYUpqL01LUlNvUkxKNWFBTzY5ZTFWT3pVZm1UOGhuL0JBQT09Cg==",
+      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.1.7/Wiped.Setup_1.1.7_x64_en-US.msi"
+    }
+  }
+}
