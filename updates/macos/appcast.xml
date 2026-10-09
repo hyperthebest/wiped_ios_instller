@@ -4,26 +4,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Wiped Setup</title>
         <item>
-            <title>1.1.6</title>
-            <pubDate>Fri, 09 Oct 2026 12:15:09 -0400</pubDate>
+            <title>1.1.7</title>
+            <pubDate>Fri, 09 Oct 2026 12:32:13 -0400</pubDate>
             <link>https://www.wiped.me</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Wiped Setup 1.1.6
+            <description sparkle:format="markdown"><![CDATA[# Wiped Setup 1.1.7
 
-- If an update fails, use Download update manually to open wiped.me/dashboard and get the latest Mac installer.
-- Find the same manual download option anytime in the Wiped Setup menu.
-- The required-update screen also opens the dashboard for manual downloads.
+- Shows the installed version and build number in the top corner throughout sign-in and iPhone setup.
+- Includes the version on the required-update screen, making support screenshots easier to identify.
 
-Download the DMG from your dashboard, open it, and drag Wiped Setup to Applications
-to replace the older installer. Finish any current iPhone setup before replacing
-the installer.
+The label identifies the installer currently running, for example v1.1.7 (13).
+The number in parentheses is its build number.
 ]]></description>
-            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.6/Wiped_ios_1.1.6.dmg" length="27362052" type="application/octet-stream" sparkle:edSignature="AaXiXdt22W0m8OaFI3Un1rv/LhC6jLbdydl8hQDVe2lWw9x8s7GWls1xQsLwNEAiwx8nU62RR6JYt0rCeTogDw=="></enclosure>
+            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.7/Wiped_ios_1.1.7.dmg" length="27378464" type="application/octet-stream" sparkle:edSignature="j0fvHDDP/fWSVg+MyzM51Qame2YcOItL5ewwgmDvgBGDs3+9663FVxkFRK+b1bY08WVblboDuaxv9ZVQhpycCw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: nv4gIiQb45PewmZzbsF7fiseFHsXR70Ta+BDwrVgwnnxTkDRkizO99dLK01LryKqdzv1BddqeCdpfshzi7F7Bg==
-length: 1656
+edSignature: CEPeyRfClrA3PyF4ydFrlKMOIKQBTUEwCS7fSCiPULqBoCUwr+3LTR2VNjUX8qs59ZzAJkvN418E4chvnxQKDg==
+length: 1545
 -->
