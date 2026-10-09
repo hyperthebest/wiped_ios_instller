@@ -2,7 +2,7 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Wiped Setup</title>
+        <title>Altered Wiped Setup</title>
         <item>
             <title>1.1.4</title>
             <pubDate>Fri, 09 Oct 2026 10:53:33 -0400</pubDate>
@@ -29,5 +29,3 @@ installed on your iPhone.
 edSignature: 8F0/uV/KSZwGfB7Ldx4kGewglkbzTvA5Gg0jvs+cEh2Iha30yiCZpvtj5z6c7AEneoicKqMTiYiA05uTKHbyAw==
 length: 1786
 -->
-
-<!-- tampered feed verification test -->
