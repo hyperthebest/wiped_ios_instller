@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Wiped Setup</title>
+        <item>
+            <title>1.1.4</title>
+            <pubDate>Fri, 09 Oct 2026 10:53:33 -0400</pubDate>
+            <link>https://www.wiped.me</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Wiped Setup 1.1.4
+
+- Update the Mac installer directly from Wiped Setup using Check for Updates.
+- Updates wait until sign-in and iPhone setup are finished.
+- Includes the iPhone self-signing fixes for Apple authentication and code verification.
+- Keeps saved Apple account details and existing pairing records when updating.
+
+Older installers need one manual upgrade to this version. Move Wiped Setup to
+Applications before using its updater. Updating the Mac installer supplies the
+latest phone app for your next installation; it does not replace an app already
+installed on your iPhone.
+]]></description>
+            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.4/Wiped_ios_1.1.4.dmg" length="27355185" type="application/octet-stream" sparkle:edSignature="SpXzBDKMuVt2tF3LKXuLv9VoVcbwMw+2VNxXZ9czqnJh+dd5HwOmdxIcqsqjVm60KqOiGrFaPNfYe5NBI5lUBA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 8F0/uV/KSZwGfB7Ldx4kGewglkbzTvA5Gg0jvs+cEh2Iha30yiCZpvtj5z6c7AEneoicKqMTiYiA05uTKHbyAw==
+length: 1786
+-->
+
+<!-- tampered feed verification test -->
