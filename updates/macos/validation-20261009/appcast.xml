@@ -22,10 +22,10 @@ Applications before using its updater. Updating the Mac installer supplies the
 latest phone app for your next installation; it does not replace an app already
 installed on your iPhone.
 </description>
-            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_updater_validation_20261009/Wiped-updater-integrity-test.dmg" length="27355186" type="application/octet-stream" ns0:edSignature="SpXzBDKMuVt2tF3LKXuLv9VoVcbwMw+2VNxXZ9czqnJh+dd5HwOmdxIcqsqjVm60KqOiGrFaPNfYe5NBI5lUBA=="></enclosure>
+            <enclosure url="http://127.0.0.1:18744/update.dmg" length="27355185" type="application/octet-stream" ns0:edSignature="SpXzBDKMuVt2tF3LKXuLv9VoVcbwMw+2VNxXZ9czqnJh+dd5HwOmdxIcqsqjVm60KqOiGrFaPNfYe5NBI5lUBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: sw/CG/X+nEbvMrLLok2L2ty9OkdUDZCIDK90lsrGqVd3eZGRME/gNd6mRlaww7l1NCOoHIBgWs3HMH51nfRxDQ==
-length: 1786
+edSignature: NHdQtyUvyXVOl64WKk25wmHllueN6RMjr7jLf0piQhfWNlr7JC1tAHfgphs8CHe0qa6rfFk0Qkdlt92mg84QDw==
+length: 1684
 -->
