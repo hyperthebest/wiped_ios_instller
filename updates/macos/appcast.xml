@@ -4,28 +4,51 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Wiped Setup</title>
         <item>
-            <title>1.1.4</title>
-            <pubDate>Fri, 09 Oct 2026 10:53:33 -0400</pubDate>
+            <title>1.1.7</title>
+            <pubDate>Sat, 10 Oct 2026 18:44:19 -0400</pubDate>
             <link>https://www.wiped.me</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Wiped Setup 1.1.4
+            <description sparkle:format="markdown"><![CDATA[# Wiped 1.1.7
 
-- Update the Mac installer directly from Wiped Setup using Check for Updates.
-- Updates wait until sign-in and iPhone setup are finished.
-- Includes the iPhone self-signing fixes for Apple authentication and code verification.
-- Keeps saved Apple account details and existing pairing records when updating.
+## iPhone app
 
-Older installers need one manual upgrade to this version. Move Wiped Setup to
-Applications before using its updater. Updating the Mac installer supplies the
-latest phone app for your next installation; it does not replace an app already
-installed on your iPhone.
+- **Optional Stop after timer.** Choose hours and minutes, including durations such as 3 hours 31 minutes. The timer starts when spoofing succeeds and requests Stop when it expires. Spoofing stays indefinite unless you explicitly set a timer; later sessions do not inherit it.
+- **Timer beside Stop.** The active location card’s previous lock button is replaced by Timer, keeping the main controls compact. Set, change or remove a timer there or in Settings → Stop after…. The active card shows the time remaining when enabled.
+- **Lock Screen and Dynamic Island countdown.** An active timer shows Stops in through the Live Activity, including while a route is paused. Sessions without a timer keep their normal elapsed-time display.
+- **Recent destinations.** Open search to revisit your last five selected destinations. Clear removes recent history without deleting saved places or routes. Typing keeps the focus on search results.
+- **Recent locations preference.** Show recent locations in Settings → Preferences controls the list immediately. Hiding it keeps the history, and your choice is included in settings backup.
+- **Settings recovery after reinstalling.** Preferences, saved places, complete saved routes and recent destinations can be recovered for your Wiped account and iPhone through the updated installer. Run setup once to enable backup, then check Settings backed up before deleting the app. Normal updates preserve your settings and completed tutorial.
+- **A quick permission check for returning users.** Restored installs can skip the tutorial while one small screen checks missing background Location and Notifications permissions. Already-enabled permissions pass through. First-time and Fresh installs keep guided onboarding.
+- **What’s new after updating.** A short card introduces three highlights once per release. Reopen it from Settings → About → What’s new.
+- **Faster opening on mobile data.** A fresh launch without an armed connection opens the map without waiting through an automatic connection attempt. The mobile-data card explains how to connect using Wi-Fi or Airplane Mode. Existing armed connections continue using their normal cellular flow.
+- **Clearer cellular troubleshooting.** Fix connection opens the mobile-data steps directly when an unreachable developer service on cellular is the issue. Other errors keep their appropriate troubleshooting screen.
+- **Tutorial Skip confirmation.** Skipping now asks for confirmation so setup instructions are not dismissed accidentally.
+- **More accurate Stop feedback.** Wiped waits for the iPhone to accept the location-clear command before showing Ready. Route cancellation preserves the connection until clearing finishes; a failed clear shows an error instead of claiming your real location was restored.
+- **Apple sign-in and renewal fixes carried forward.** Includes the earlier 503/429 compatibility fixes and verification-code recovery. Recoverable code errors keep the code-entry step available for a deliberate retry without automatically requesting more messages.
+
+Keep Wiped running when using a timer. Force-quitting prevents automatic Stop,
+and iOS suspension can delay it until the app resumes. A countdown on the Lock
+Screen does not override that limitation.
+
+## Mac installer
+
+- **Updates from the installer.** Check for Updates or Update available downloads the new installer and offers Install and Relaunch. Signing, verification-code entry, pairing and iPhone installation are protected while in progress. Installers from before automatic updates need one manual upgrade first.
+- **Manual update recovery.** Download update manually opens your Wiped dashboard if an update fails. The action is also available in the application menu and required-update screen. Cancelling an update or choosing Later does not produce a failure warning.
+- **Cleaner update layout.** Update recovery uses the existing header so its controls remain visible without the earlier clipped bottom panel.
+- **Visible version and build.** The header shows the running installer’s version and build, making support screenshots easier to identify.
+- **Keep saved settings during setup.** The installer checks for a backup for the signed-in Wiped account and connected iPhone, then delivers the recovery setup needed by the new app.
+- **Fresh install only when useful.** One unchecked Fresh install box appears only when saved settings exist. Selecting it resets that iPhone’s preferences, saved places, saved routes and recents, and shows onboarding again. First-time users do not see the box; the choice is not remembered for the next run.
+- **Fewer password-save prompts.** Reusing the saved Apple email/password no longer asks to save the same pair again. Changing either offers to save the replacement after successful sign-in and consent.
+- **Updated iPhone payload.** Includes the new app and Live Activity extension at 1.1.7/build 14, with all the improvements above.
+
+Both apps use version **1.1.7, build 14**. The Mac installer update supplies the new iPhone app for a subsequent installation; it does not replace an already installed iPhone app by itself.
 ]]></description>
-            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.4/Wiped_ios_1.1.4.dmg" length="27355185" type="application/octet-stream" sparkle:edSignature="SpXzBDKMuVt2tF3LKXuLv9VoVcbwMw+2VNxXZ9czqnJh+dd5HwOmdxIcqsqjVm60KqOiGrFaPNfYe5NBI5lUBA=="></enclosure>
+            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.7_build14/Wiped_ios_1.1.7_build14.dmg" length="27788649" type="application/octet-stream" sparkle:edSignature="GWWfwD5HuroZslboageg7HaA7Y/GCsQkl/fQTqYXzr1CjwinSaGYQqx8AChHrFSFSJbOTulhDvSlNKjv1J0SBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8F0/uV/KSZwGfB7Ldx4kGewglkbzTvA5Gg0jvs+cEh2Iha30yiCZpvtj5z6c7AEneoicKqMTiYiA05uTKHbyAw==
-length: 1786
+edSignature: weNzhoBrfj6QoCAotQPkc40DaEfPSp0+c9v1oE9Mi7ag09/BxrrdZs6rKJXKs1nR/N/NwvXSOylkMe7GjEGZDQ==
+length: 6406
 -->
