@@ -1,11 +1,11 @@
 {
-  "version": "1.1.7",
-  "notes": "Wiped Setup 1.1.7 includes the updated iPhone app (build 14), saved settings, places and routes recovery, an optional Fresh install when a backup exists, and installer update improvements. Complete Setup once and confirm Settings backed up before deleting the iPhone app.",
-  "pub_date": "2026-10-11T02:18:02Z",
+  "version": "1.1.8",
+  "notes": "Windows iPhone installer 1.1.8 with phone build 22, updated dark setup interface, Apple sign-in fixes, and clearer iPhone trust and completion guidance.",
+  "pub_date": "2026-10-14T19:46:46Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSEw3aFdWbi9kSmRQQUNHNURlNldtZnRDK0RlQkx5NFJuTjkxUkRWS28vQWUyeTZ1OWlSZkxqR2VBTkdMa0MxMllQdFVLbGg2UXdMUGp3elRYa0tSWFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjg0MTEzCWZpbGU6V2lwZWQuU2V0dXBfMS4xLjdfeDY0X2VuLVVTLm1zaQplVXRFT2ZPTWNXdXhBU0hzZ3EwVFlYc3NQdUVwTC82alJEL3dQeHB4R0k3RnRpR3ZVQzJpcC9jem5tQlVrcE9EanZnZkdNSzc4dGUwMVdqRU96ZE5DUT09Cg==",
-      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.1.7_candidate_20261010/Wiped.Setup_1.1.7_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSERjcG5Qait3VW12RVNGQVlUb0NNRWZKckI0ZERmTHlqT25LT0JxdEJUWjNwU29VeGhDR1BmSUs1M045ZnhCZ29aRll2WGJ5UDBwMS9VcnRrNXNYMmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDA0OTU0CWZpbGU6V2lwZWQgU2V0dXBfMS4xLjhfeDY0X2VuLVVTLm1zaQptdG0xTGRIcCtWbHN5UkxCT3Qwc1JNd1pDK1RxR21Uc1UzZVJBV01tVDVadlc4THlRUWg4VjhLMnQ1c29VNVZwRDBxTnZuVCsrdG4xQUFwTzR2WmVBZz09Cg==",
+      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.1.8/Wiped.Setup_1.1.8_build22_x64_en-US.msi"
     }
   }
 }
