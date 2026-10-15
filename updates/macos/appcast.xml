@@ -4,38 +4,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Wiped Setup</title>
         <item>
-            <title>1.1.8</title>
-            <pubDate>Wed, 14 Oct 2026 14:28:28 -0400</pubDate>
+            <title>1.1.9</title>
+            <pubDate>Wed, 14 Oct 2026 23:30:04 -0400</pubDate>
             <link>https://www.wiped.me</link>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Wiped 1.1.8
-
-## iPhone app
-
-- Clearer renewal controls: a prominent Renew Wiped button and short guidance when Apple sign-in needs another attempt. Additional sign-in details are available on demand.
-- Improved Apple sign-in, verification-code handling and certificate recovery for installation and renewal. Expired device verification has an explicit recovery action; temporary service failures keep their retry guidance.
-- Automatic renewal can run when due while an enrolled Wiped app is open and idle with its phone signing setup ready and LocalDevVPN connected. Apple verification may still require your help; force-quitting prevents background work.
-- Settings are organized into focused categories while keeping existing preferences and recovery tools.
-- Recenter follows the active spoofed location or current route position. While idle, holding the button offers real-location or dropped-pin camera choices.
-- Standard and Satellite are the two map styles. Existing Hybrid preferences map to Satellite.
-- The Dynamic Island adapts more cleanly when another activity shares its space.
+            <description sparkle:format="markdown"><![CDATA[# Wiped 1.1.9
 
 ## Mac installer
 
-- Shorter Apple Account explanation with full Privacy details still available.
-- Improved Apple sign-in and verification/certificate recovery.
-- Automatic-renewal enrollment starts selected; users can still turn it off.
-- Simpler completion screen: Wiped is installed, with one short instruction to open the iPhone app.
-- Signed and notarized universal installer for Apple Silicon and Intel Macs, with the matching 1.1.8/build22 iPhone and Live Activity payload.
+- Updates Apple Account sign-in for verification codes from a trusted Apple device. Ryan verified this path in private build23; build24 packages the same authentication code under the new release identity.
+- Keeps machine-verification recovery bounded and preserves existing account, pairing and settings storage.
+- SMS-only Apple Accounts remain unsupported by this fix; SMS sign-in is still being investigated. Use a trusted-device code when your account offers it.
+- Universal installer for Apple Silicon and Intel Macs, signed with Developer ID and notarized by Apple.
 
-Installing the Mac update does not replace an already installed iPhone app by itself. Run Wiped Setup for the phone update. Phone-only version updating remains separate future work.
+## iPhone app and Live Activity
+
+- Version metadata advances to 1.1.9/build24 so the installed phone app matches the advertised release. Phone authentication behavior and features remain unchanged from build22; the Mac-specific sign-in code is not included in the phone SDK.
+
+Updating the Mac installer does not replace the app already installed on an iPhone. Use Install options → Reinstall Wiped with Fresh install unchecked to replace it while retaining the existing settings-recovery path. Production phone-only updating remains disabled. Windows release packaging is separate.
 ]]></description>
-            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.8_build22/Wiped_ios_1.1.8_build22.dmg" length="28106463" type="application/octet-stream" sparkle:edSignature="kM/nX08UYGGuYBQJrPpthSCBf7crip7aUiz+1KjmNwGvhWe4g9AFKPX25ywKEcKKXUtemdIvhEd/4G7o7cf6Bw=="></enclosure>
+            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.9_build24/Wiped_ios_1.1.9_build24.dmg" length="28163835" type="application/octet-stream" sparkle:edSignature="pLEHgrG1v3FCQPKOdOsGo+trt5iBjjdQN4i+Wu/4LfM04H20bV42mipYmu2b9WA1mOGV8Y1i8gD5AlT7CfdMDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: J8ocZruFGdTfUvdHQ5jnW8ghY7PGRXPyyElsJyPYdUr1T9vJxuy2ZIF9+4fqYpVj3GC/IWxaXS8hifcO4+kFAQ==
-length: 2970
+edSignature: esiXXjpJks+so8qYaUI8jzu9aHddg6G3bd+Zeqx4Rwwpvy+KKf/oIaBDARkdw5tEXQV/cGmySILIQLnEH9DZDA==
+length: 2401
 -->
