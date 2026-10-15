@@ -1,11 +1,11 @@
 {
-  "version": "1.1.8",
-  "notes": "Windows iPhone installer 1.1.8 with phone build 22, updated dark setup interface, Apple sign-in fixes, and clearer iPhone trust and completion guidance.",
-  "pub_date": "2026-10-14T19:46:46Z",
+  "version": "1.1.9",
+  "notes": "Windows iPhone installer 1.1.9 with phone build 24 and updated Apple sign-in/device verification. A trusted Apple device is required for verification codes; text-message-only verification is not supported yet. Saved login and setup data are preserved.",
+  "pub_date": "2026-10-15T04:24:46Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSERjcG5Qait3VW12RVNGQVlUb0NNRWZKckI0ZERmTHlqT25LT0JxdEJUWjNwU29VeGhDR1BmSUs1M045ZnhCZ29aRll2WGJ5UDBwMS9VcnRrNXNYMmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDA0OTU0CWZpbGU6V2lwZWQgU2V0dXBfMS4xLjhfeDY0X2VuLVVTLm1zaQptdG0xTGRIcCtWbHN5UkxCT3Qwc1JNd1pDK1RxR21Uc1UzZVJBV01tVDVadlc4THlRUWg4VjhLMnQ1c29VNVZwRDBxTnZuVCsrdG4xQUFwTzR2WmVBZz09Cg==",
-      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.1.8/Wiped.Setup_1.1.8_build22_x64_en-US.msi"
+      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.1.9/Wiped.Setup_1.1.9_build24_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSFBINlFsemNBK0JpaktVbTFvMzd0UVRXWFhoVjBWNDZTam1PTkZxMFhVZC9pek1GWnpsME44bkNCajV6YXU5Z0ZhV0R5QlYyNGVSZkZhRUpXVlBweFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDM4MTk2CWZpbGU6V2lwZWQgU2V0dXBfMS4xLjlfeDY0X2VuLVVTLm1zaQprQ3NEelpBRkxyTVd1L3NPdk1UN1lXTVF1ekpFZW1KRlRTUm82cEwzTXdIcloxZlgzdEN0bDFjNkhFMTdFaHpMakorNFRWYjlVTkhGZ3dOZklPelRCZz09Cg=="
     }
   }
 }
