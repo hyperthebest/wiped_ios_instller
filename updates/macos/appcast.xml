@@ -4,31 +4,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Wiped Setup</title>
         <item>
-            <title>1.1.9</title>
-            <pubDate>Wed, 14 Oct 2026 23:30:04 -0400</pubDate>
+            <title>1.2.0</title>
+            <pubDate>Mon, 19 Oct 2026 00:11:32 -0400</pubDate>
             <link>https://www.wiped.me</link>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Wiped 1.1.9
+            <description sparkle:format="markdown"><![CDATA[# Wiped 1.2.0
 
-## Mac installer
+- Install verified feature updates directly on your iPhone after computer setup.
+- Choose a custom app name and import your own app icon.
+- See confirmation after a successful renewal, with your next expiry date.
+- Control Live Activity and Siri & Shortcuts from the reorganized Settings.
+- See service notices in Setup and renewal when support has an update to share.
+- Improved Apple sign-in compatibility and preserved saved login during updates.
 
-- Updates Apple Account sign-in for verification codes from a trusted Apple device. Ryan verified this path in private build23; build24 packages the same authentication code under the new release identity.
-- Keeps machine-verification recovery bounded and preserves existing account, pairing and settings storage.
-- SMS-only Apple Accounts remain unsupported by this fix; SMS sign-in is still being investigated. Use a trusted-device code when your account offers it.
-- Universal installer for Apple Silicon and Intel Macs, signed with Developer ID and notarized by Apple.
-
-## iPhone app and Live Activity
-
-- Version metadata advances to 1.1.9/build24 so the installed phone app matches the advertised release. Phone authentication behavior and features remain unchanged from build22; the Mac-specific sign-in code is not included in the phone SDK.
-
-Updating the Mac installer does not replace the app already installed on an iPhone. Use Install options → Reinstall Wiped with Fresh install unchecked to replace it while retaining the existing settings-recovery path. Production phone-only updating remains disabled. Windows release packaging is separate.
+Keep LocalDevVPN connected for on-phone operations. Feature updates do not extend
+Apple signing expiry; renewal is still required. Trusted-device verification is
+supported; SMS-only Apple sign-in remains unavailable. A computer reinstall can
+reset an imported icon.
 ]]></description>
-            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.1.9_build24/Wiped_ios_1.1.9_build24.dmg" length="28163835" type="application/octet-stream" sparkle:edSignature="pLEHgrG1v3FCQPKOdOsGo+trt5iBjjdQN4i+Wu/4LfM04H20bV42mipYmu2b9WA1mOGV8Y1i8gD5AlT7CfdMDQ=="></enclosure>
+            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.2.0/Wiped_ios_1.2.0.dmg" length="29170940" type="application/octet-stream" sparkle:edSignature="B2EcEnO7BWk5wnNgjqmK0MtyLJ8fplQdYn8skfQeYitHZiWKLSgtZbXliH4vTvhtwoyb2/mhWBU395c6jSFCDA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: esiXXjpJks+so8qYaUI8jzu9aHddg6G3bd+Zeqx4Rwwpvy+KKf/oIaBDARkdw5tEXQV/cGmySILIQLnEH9DZDA==
-length: 2401
+edSignature: DiwCmMrfbbtPDDi3ETxcEmmEx6R8UmyANHCVm/b8xwXOIPkIAVBa0pa8/uH81hdTmbBld9Jx6gtkQrH889NtDQ==
+length: 1926
 -->
