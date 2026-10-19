@@ -1,11 +1,11 @@
 {
-  "version": "1.1.9",
-  "notes": "Windows iPhone installer 1.1.9 with phone build 24 and updated Apple sign-in/device verification. A trusted Apple device is required for verification codes; text-message-only verification is not supported yet. Saved login and setup data are preserved.",
-  "pub_date": "2026-10-15T04:24:46Z",
+  "version": "1.2.0",
+  "notes": "Windows iPhone installer1.2.0 with phone1.1.9/build43. Approved dark setup, saved-login recovery and optional phone renewal are retained. Updating this Windows installer does not update an app already installed on your iPhone.",
+  "pub_date": "2026-10-19T04:46:13Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.1.9/Wiped.Setup_1.1.9_build24_x64_en-US.msi",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSFBINlFsemNBK0JpaktVbTFvMzd0UVRXWFhoVjBWNDZTam1PTkZxMFhVZC9pek1GWnpsME44bkNCajV6YXU5Z0ZhV0R5QlYyNGVSZkZhRUpXVlBweFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDM4MTk2CWZpbGU6V2lwZWQgU2V0dXBfMS4xLjlfeDY0X2VuLVVTLm1zaQprQ3NEelpBRkxyTVd1L3NPdk1UN1lXTVF1ekpFZW1KRlRTUm82cEwzTXdIcloxZlgzdEN0bDFjNkhFMTdFaHpMakorNFRWYjlVTkhGZ3dOZklPelRCZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSE5ZaDJGcFBmT0N2UFBUazFEVWxYZWxGL2lDa3FRRml5TjhsaFVDdU0wK0VWVldmcGFHQUpRN3l4cmZ3b3Z2V1BKaWx3RFRubWlIWjA5RXBNZ3E0TmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzgzMzQ3CWZpbGU6V2lwZWQgU2V0dXBfMS4yLjBfeDY0X2VuLVVTLm1zaQpCNFZBelpVL1JFUnducFVveGhRTHZiQVJUWWhmT3NpSzh2K3cvbldZK3EzUVJ0a3ZRZkZtZ3ZoZGFqVkcrVVJiNXFMM01NZDl5dEV3TjFXbG9TZ1ZDZz09Cg==",
+      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.2.0/Wiped.Setup_1.2.0_build43-build32_x64_en-US.msi"
     }
   }
 }
