@@ -1,11 +1,11 @@
 {
-  "version": "1.2.0",
-  "notes": "Windows iPhone installer1.2.0 with phone1.1.9/build43. Approved dark setup, saved-login recovery and optional phone renewal are retained. Updating this Windows installer does not update an app already installed on your iPhone.",
-  "pub_date": "2026-10-19T04:46:13Z",
+  "version": "1.2.1",
+  "notes": "Windows Setup 1.2.1: updated Apple sign-in, saved-login transfer recovery and bundled iPhone 1.2.1/build51. Updating Windows Setup does not by itself update an app already installed on your iPhone.",
+  "pub_date": "2026-10-22T17:27:57Z",
   "platforms": {
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSE5ZaDJGcFBmT0N2UFBUazFEVWxYZWxGL2lDa3FRRml5TjhsaFVDdU0wK0VWVldmcGFHQUpRN3l4cmZ3b3Z2V1BKaWx3RFRubWlIWjA5RXBNZ3E0TmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzgzMzQ3CWZpbGU6V2lwZWQgU2V0dXBfMS4yLjBfeDY0X2VuLVVTLm1zaQpCNFZBelpVL1JFUnducFVveGhRTHZiQVJUWWhmT3NpSzh2K3cvbldZK3EzUVJ0a3ZRZkZtZ3ZoZGFqVkcrVVJiNXFMM01NZDl5dEV3TjFXbG9TZ1ZDZz09Cg==",
-      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.2.0/Wiped.Setup_1.2.0_build43-build32_x64_en-US.msi"
+      "url": "https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_setup_windows_1.2.1/Wiped.Setup_1.2.1_build51-build37_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRmUrb2NydG5jSEJMTU5iSE5WY095eU5zdFJxWDByeE9nYTZkc3VlMDdLc3UyM2N5R3JJQm9tcUFzOTNKcitFVVIzamZlUldUd3FHT0Nlc2VYb21jR0YvWWhZUGhJRmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjg5OTk4CWZpbGU6V2lwZWQgU2V0dXBfMS4yLjFfeDY0X2VuLVVTLm1zaQpwWFVBM1VFY2FOK2d2WHRpRTU5ODFydnNLQzcvVDMzOGlmbWhibTlTL28zbWwvWFJxZy85VGROVlFsZDQyaksyUlk0L09IUktyNlF5QnhPbmUvd3ZDdz09Cg=="
     }
   }
 }
