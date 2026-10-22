@@ -4,30 +4,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Wiped Setup</title>
         <item>
-            <title>1.2.0</title>
-            <pubDate>Mon, 19 Oct 2026 00:11:32 -0400</pubDate>
+            <title>1.2.1</title>
+            <pubDate>Thu, 22 Oct 2026 10:34:40 -0400</pubDate>
             <link>https://www.wiped.me</link>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Wiped 1.2.0
+            <description sparkle:format="markdown"><![CDATA[Wiped Setup 1.2.1 for macOS
 
-- Install verified feature updates directly on your iPhone after computer setup.
-- Choose a custom app name and import your own app icon.
-- See confirmation after a successful renewal, with your next expiry date.
-- Control Live Activity and Siri & Shortcuts from the reorganized Settings.
-- See service notices in Setup and renewal when support has an update to share.
-- Improved Apple sign-in compatibility and preserved saved login during updates.
+- Updated Apple Account sign-in for installation and on-iPhone renewal.
+- Retained app name and icon customization with the updated sign-in flow.
+- Refreshed the Mac setup interface and allowed closing Setup during installation.
 
-Keep LocalDevVPN connected for on-phone operations. Feature updates do not extend
-Apple signing expiry; renewal is still required. Trusted-device verification is
-supported; SMS-only Apple sign-in remains unavailable. A computer reinstall can
-reset an imported icon.
+Includes Wiped for iPhone 1.2.1 (build51). Available for Intel and Apple Silicon Macs.
 ]]></description>
-            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.2.0/Wiped_ios_1.2.0.dmg" length="29170940" type="application/octet-stream" sparkle:edSignature="B2EcEnO7BWk5wnNgjqmK0MtyLJ8fplQdYn8skfQeYitHZiWKLSgtZbXliH4vTvhtwoyb2/mhWBU395c6jSFCDA=="></enclosure>
+            <enclosure url="https://github.com/hyperthebest/wiped_ios_instller/releases/download/wiped_ios_1.2.1/Wiped_ios_1.2.1.dmg" length="29600500" type="application/octet-stream" sparkle:edSignature="AVlBS1+OtOhYrG5OmfDQTwnnl2vkKsF2TH+btiuNZ+mUQjTOeegEdG6zOSK149DlYNl0WjlmBeRhVx3y+iQ7Cg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DiwCmMrfbbtPDDi3ETxcEmmEx6R8UmyANHCVm/b8xwXOIPkIAVBa0pa8/uH81hdTmbBld9Jx6gtkQrH889NtDQ==
-length: 1926
+edSignature: kxHCV5/up3cD3nTd84Hqg5F+vwpPDEjrXdaj+srf7pyYmz9cEJ5+I+G7/DZqjtGfKB5DIdz4wRVucrtB/neVAA==
+length: 1540
 -->
